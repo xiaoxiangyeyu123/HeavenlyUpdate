@@ -28,7 +28,7 @@ preferExternal:表示安装在外部储存卡卡上
   
 ## HeavenlyUpdate（方法调用）
 |方法名|描述
-|---|---|---|
+|---|---
 |setUpadeUrl| 设置下载apk地址
 |setDownLoadManager| 设置是否使用DownLoadManager
 |setFileName| 设置apk文件名
