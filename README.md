@@ -25,17 +25,20 @@ auto:表示先查看手机内存是否足够，如果够就安装在手机内存
 internalOnly:表示安装在手机内存上.  
 
 preferExternal:表示安装在外部储存卡卡上  
-
-## HeavenlyUpdateApk（方法调用）
-|---|
+  
+## HeavenlyUpdate（方法调用）
+|方法名|描述
+|---|---|---|
 |setUpadeUrl| 设置下载apk地址
 |setDownLoadManager| 设置是否使用DownLoadManager
 |setFileName| 设置apk文件名
 |setUpdateDirectory| 设置下载路径
-|setIcon| 设置下载时显示图标
+|setIcon| 设置下载时显示图标 
 |setTitle| 设置下载时显示文字
-|startUpdate|开始下载 
-|requestPermission|申请6.0权限   
+|startUpdate| 开始下载
+|requestPermission| 申请6.0权限
+|setProviderName| provider的authorities
+
 **注意**  
 
-android7.0FileProviderh和android6.0权限问题
+android7.0FileProvider和android6.0权限问题
